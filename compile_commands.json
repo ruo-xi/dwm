@@ -1,0 +1,68 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_POSIX_C_SOURCE=200809L",
+      "-DVERSION=\"6.2\"",
+      "-DXINERAMA",
+      "drw.c"
+    ],
+    "directory": "/home/yu/software/source/dwm",
+    "file": "/home/yu/software/source/dwm/drw.c",
+    "output": "/home/yu/software/source/dwm/drw.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_POSIX_C_SOURCE=200809L",
+      "-DVERSION=\"6.2\"",
+      "-DXINERAMA",
+      "dwm.c"
+    ],
+    "directory": "/home/yu/software/source/dwm",
+    "file": "/home/yu/software/source/dwm/dwm.c",
+    "output": "/home/yu/software/source/dwm/dwm.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-Wno-deprecated-declarations",
+      "-Os",
+      "-I/usr/X11R6/include",
+      "-I/usr/include/freetype2",
+      "-D_DEFAULT_SOURCE",
+      "-D_BSD_SOURCE",
+      "-D_POSIX_C_SOURCE=200809L",
+      "-DVERSION=\"6.2\"",
+      "-DXINERAMA",
+      "util.c"
+    ],
+    "directory": "/home/yu/software/source/dwm",
+    "file": "/home/yu/software/source/dwm/util.c",
+    "output": "/home/yu/software/source/dwm/util.o"
+  }
+]

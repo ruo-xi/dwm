@@ -85,7 +85,6 @@ static Key keys[] = {
 	{ MODKEY,                       XK_space,	   spawn,          {.v = dmenucmd } },
 	{ MODKEY,	                			XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,	                			XK_c, 	   spawn,          {.v = browercmd } },
-    { MODKEY,                       XK_F4, spawn, {.v = screenshotcmd}},
 
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	
